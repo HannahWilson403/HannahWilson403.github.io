@@ -91,5 +91,24 @@ nav li a:hover {
     font-size: 5rem;
     margin-bottom: 0;
     text-shadow: 1px 1px black;
-    
+
+}
+
+.titles p{
+letter-spacing: 3px;
+text-shadow: 1px 1px  black;
+}
+
+.container-boxes{
+    margin: 0 auto;
+    padding: 0; 
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    max-width: 80vw;
+
+}
+
+.box{
+    background: rgba(rgb(141, 37, 37), rgb(71, 150, 71), rgb(96, 96, 156), alpha)
 }

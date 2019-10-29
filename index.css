@@ -51,17 +51,43 @@ margin: 1rem;
 
 }
 
-header nav{
+header{
     padding:  1rem 2rem;
+}
+
+
+#container{
+    margin: 0 auto;
+}
+
+nav {
+    width: 100%;
+    height: 40px;
+    background-color: cornflowerblue;
+    
+}
+
+nav a{
+    font-size: 12px;
+}
+
+nav ul {
+    list-style: none;
+    float: left;
+    position: relative;
+    padding: 0;
+    margin: 0;
 }
 
 nav ul li {
 list-style: none;
-display: inline;
+display: inline-block;
 text-transform: uppercase;
 font-weight: bold;
+font-size: 22px;
 letter-spacing: 2px; 
 padding: 2px;
+background-color: cornflowerblue;
 }
 
 nav li a {
@@ -76,6 +102,24 @@ transition: all 250ms ease-in
 nav li a:hover {
     background: rgb(126, 15, 170);
     color: white; 
+}
+
+
+nav ul ul {
+    /* hides nested list */
+    display: none;
+    position: absolute;
+}
+
+
+nav ul li:hover > ul{
+    display: inherit;
+    font-size: small;
+}
+
+nav ul ul li{
+    width: 170px;
+
 }
 
 

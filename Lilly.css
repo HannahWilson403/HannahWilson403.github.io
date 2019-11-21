@@ -108,39 +108,33 @@ nav ul ul li{
     padding: 0;
 }
 .titles {
-    color: black;
-    text-align: center;
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-.titles h1{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 5rem;
-    margin-bottom: 0;
-
-
+    font-size: 3rem;
+    margin: 0;
 }
+
+
+.titles i{
+    font-size: 30pt;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+
 
 .titles p{
     font-family: 'Times New Roman', Times, serif;
-font-size: 16pt;
-/* margin-bottom: 10px; */
+font-size: 48pt;
+margin-left: 20px;
+margin-right: 10px;
 }
 
-.container-boxes{
-    margin: 0 auto;
-    padding: 0; 
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    max-width: 80vw;
 
-}
-
-.box{
-    background: rgba(rgb(141, 37, 37), rgb(71, 150, 71), rgb(96, 96, 156), alpha)
-}
 
 
 

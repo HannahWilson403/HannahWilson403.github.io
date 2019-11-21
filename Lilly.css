@@ -1,3 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Courgette&display=swap);
+
+
+
 header{
 
     display: flex;
@@ -115,6 +119,7 @@ nav ul ul li{
     font-family: 'Times New Roman', Times, serif;
     font-size: 3rem;
     margin: 0;
+    margin-bottom: 20px;
 }
 
 
@@ -128,7 +133,7 @@ nav ul ul li{
 
 
 .titles p{
-    font-family: 'Times New Roman', Times, serif;
+font-family: 'Times New Roman', Times, serif;
 font-size: 48pt;
 margin-left: 20px;
 margin-right: 10px;
@@ -136,8 +141,18 @@ margin-right: 10px;
 
 
 
+.subtitle {
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    margin-bottom: 30px; 
+}
 
-
+.subtitle p{
+    font-family: 'Courgette', cursive;
+    font-size: 18pt;
+    font-weight: 500;
+}
 
 
 footer{

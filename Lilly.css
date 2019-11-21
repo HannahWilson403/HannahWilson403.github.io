@@ -202,3 +202,31 @@ footer{
     margin-left: 120px;
     margin-bottom: 50px;
 }
+
+.picfive{
+    display: inline-block;
+    block-size: auto;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.picsix{
+    display: inline-block;
+    block-size: auto;
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+
+.picseven{
+    display: inline-block;
+    block-size: auto;
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+
+.piceight{
+    display: inline-block;
+    block-size: auto;
+    margin-left: 120px;
+    margin-bottom: 50px;
+}

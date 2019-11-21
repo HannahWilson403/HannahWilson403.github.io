@@ -162,10 +162,43 @@ footer{
 }
 
 
+.rowone{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    border-top: solid 5px teal;
+}
+
+
 .picone{
-    
     display: inline-block;
     block-size: auto;
-    /* width: 20rem; */
-    border: 1rem solid violet;
+    margin-left: 120px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+
+.pictwo{
+    display: inline-block;
+    block-size: auto;
+    margin-left: 120px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.picthree{
+    display: inline-block;
+    block-size: auto;
+    margin-left: 120px;
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+
+
+.picfour{
+    display: inline-block;
+    block-size: auto;
+    margin-left: 120px;
+    margin-bottom: 50px;
 }

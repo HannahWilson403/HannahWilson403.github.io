@@ -7,6 +7,8 @@ header{
 
 }
 
+
+
 header div{
     display: flex;
     justify-content: space-between;
@@ -15,6 +17,11 @@ header div{
     font-size: 3rem;
     margin: 0;
 }
+
+
+/* header div p{
+    width: fit-content;
+} */
 
 
 header div i {
@@ -83,9 +90,6 @@ nav ul ul {
 
 nav ul li:hover > ul{
     display: inherit;
-    /* float: none;
-    display: list-item; */
-    /* position: relative; */
 }
 
 nav ul ul li{
@@ -140,6 +144,7 @@ font-size: 16pt;
     text-align: center;
     font-size: 1.5rem;
 }
+
 
 footer{
     background-color: blueviolet;
